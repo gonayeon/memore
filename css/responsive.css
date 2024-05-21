@@ -1,0 +1,195 @@
+@media (max-width: 1550px) {
+
+    #pc_nav {
+      padding:  0 30px;
+    }
+
+    footer {
+      padding: 30px 20px;
+    }
+}
+
+@media (max-width: 890px) {
+
+  .list_txt_wrap p {
+    font-size: 20px;
+  }
+
+  .list_txt_wrap span {
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+    #visual {
+      display: none; 
+    }
+    #visual2 {
+      display: block;
+    }
+
+    #pc_nav {
+      display: none;
+    }
+
+    #m_wrap {
+      display: block;
+    }
+
+    footer{
+      display: flex;
+      flex-direction: column;
+      padding: 20px ;
+      line-height: 20px;
+      font-size: 11px;
+      text-align: center;
+    }
+    
+    footer ul {
+      font-size: 12px;
+      justify-content: center;
+      order: -1;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    #cart_wrap {
+      margin-top: 0;
+      padding: 170px 60px 70px;
+    }
+
+    #log_wrap {
+      margin-top: 0;
+      padding: 150px 0 50px;
+    }
+
+    #plc_wrap {
+      padding-top: 150px;
+    }
+
+    #prv_wrap {
+      padding-top: 150px;
+    }
+
+    #tab_gnb > li > a {
+      font-size: 20px;
+      margin: 0 15px 10px 0;
+    }
+
+    /* 모바일 select 메뉴 */
+
+    #m_select_menu {
+      display: block;
+      padding: 0 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .toggle-button {
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+
+    #m_select_menu ul {
+      margin-top: 20px;
+    }
+
+    #m_select_menu ul li {
+      width: 110px;
+      cursor: pointer;
+    }
+
+
+   
+
+    /* 모바일 select 메뉴 끝 */
+
+    #shop_menu {
+      display: none;
+    }
+
+    #shop_right {
+      width: 100%;
+      
+    }
+
+    #shop_list > li {
+      width: 45%;
+      margin: 0 2vw;
+    }
+
+    .search_wrap input {
+      width: calc(100% - 45px - 5px);
+    }
+
+
+    
+
+
+    .search_wrap button {
+      width: 45px;
+    }
+
+    .search_wrap button span {
+      display: none;
+    }
+
+    .search_wrap button i {
+      display: block;
+    }
+
+
+    #table , #q_table , #r_table {
+      display: none;
+    }
+
+    #m_table , #m_q_table , #m_r_table {
+      display: block;
+    }
+
+    .video_wrap {
+      flex-direction: column;
+      
+    }
+
+    .video_wrap > div {
+      width: 100%;
+      
+    }
+
+    .video_wrap ul {
+      width: 100%;
+    }
+
+    .video_wrap ul li {
+      height: 40px;
+    }
+   
+  }
+
+  @media (max-width: 408px) {
+    .video_wrap > div {
+      background-color: rgba(240,240,240,0);
+    }
+
+    .video_wrap {
+      margin: 0;
+    }
+
+    .list_txt_wrap p {
+      font-size: 17px;
+      font-weight: 500;
+    }
+  
+    .list_txt_wrap span {
+      font-size: 15px;
+    }
+
+  }
+  
+
+  

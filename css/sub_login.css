@@ -1,0 +1,279 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Karla:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Karla', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+*/
+
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+ul { list-style: none;}
+img { vertical-align: top;}
+
+body {
+    font-family: 'Comfortaa', 'Montserrat', 'Karla', 'Noto Sans KR', sans-serif; 
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+a:link{text-decoration: none; color: inherit;}
+a:visited{text-decoration: none; color: inherit;}
+a:hover{text-decoration: none; color: inherit;}
+a:active{text-decoration: none; color: inherit;}
+
+
+
+.inner {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#pc_nav {
+    position: fixed;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 300;
+}
+
+#pc_nav h1 img{
+    width: 170px;
+}
+
+#pc_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#header_lf {
+    display: flex;
+}
+
+#gnb {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 29px;
+    letter-spacing: 0.18em;
+}
+
+#gnb > li > a {
+    margin-right: 40px;
+}
+
+#pc_nav ul > li:hover > a {
+    opacity: 0.7;
+}
+
+#icon_menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#icon_menu li {
+    margin:  10px 40px 0 0;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input[type="search"] {
+    display: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    margin-left: 3px;
+  }
+  /*
+  .search-box a.search-icon {
+    position: relative;
+    z-index: 1;
+  } */
+  
+  
+
+/* pc메뉴 끝 */
+
+/* 모바일 메뉴 시작 */
+
+#m_wrap {
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+
+#m_m_wrap {
+    position: absolute;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#m_m_wrap h1 img {
+    width: 90px;
+}
+
+#basket img {
+    width: 22px;
+}
+
+#m_wrap i {
+    font-size: 20px;
+}
+
+
+
+#m_nav {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    padding: 40px 20px;
+    width: 300px;
+    height: 100%;
+}
+
+#m_nav_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#m_nav_top img {
+    width: 90px;
+}
+
+#search_wrap {
+    border: 1px solid #000;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+#search_wrap input {
+    border: none;
+    outline: none;
+    width: calc(100% - 20px - 10px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+#m_gnb > li > a {
+    display: block;
+    width: 150px;
+    margin-top: 30px;
+}
+
+
+#log_wrap {
+    margin-top: 210px;
+    padding: 50px 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+#log_top {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#log_top input {
+    background-color: transparent;
+    line-height: 23px;
+    width: 350px;
+    height: 45px;
+    border: 1px solid #ddd;
+    outline: none;
+    margin: 15px 0;
+    padding: 10px 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+#log_bt > li > a {
+    border: 1px solid pink;
+    display: block;
+    color: #ffffff ;
+    background-color: #222222 ;
+    border-color: #222222 ;
+    width: 100% ;
+    max-width: 240px;
+    height: 54px ;
+    line-height: 54px;
+    margin: 25px auto;
+    font-weight: bold;
+}
+
+#log_bt > li:first-child:hover {
+    opacity: 0.7;
+}
+
+#log_bt > li > a.off {
+    color: #222;
+    background-color: #fff;
+}
+
+#log_bt > li:hover > a.off {
+    color: #ffffff ;
+    background-color: #222222 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer_wrap {
+    background-color: #fff;
+    width: 100%;
+    height: 183px;
+
+}
+
+footer {
+    padding: 30px 0;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+footer ul li {
+    margin-right: 20px;
+}
