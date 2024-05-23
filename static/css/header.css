@@ -1,0 +1,135 @@
+#pc_nav {
+    background-color: #fff;
+    position: fixed;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 300;
+}
+
+#pc_nav h1 img{
+    width: 170px;
+}
+
+#pc_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#header_lf {
+    display: flex;
+}
+
+#gnb {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 29px;
+    letter-spacing: 0.18em;
+}
+
+#gnb > li > a {
+    margin-right: 40px;
+}
+
+#pc_nav ul > li:hover > a {
+    opacity: 0.7;
+}
+
+#icon_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#icon_menu li {
+    margin:  10px 40px 0 0;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input[type="search"] {
+    display: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    margin-left: 3px;
+}
+
+/* 모바일 메뉴 */
+#m_wrap {
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+
+#m_m_wrap {
+    position: absolute;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#m_m_wrap h1 img {
+    width: 90px;
+}
+
+#basket img {
+    width: 22px;
+}
+
+#m_wrap i {
+    font-size: 20px;
+}
+
+#m_nav {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    padding: 40px 20px;
+    width: 300px;
+    height: 100%;
+}
+
+#m_nav_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#m_nav_top img {
+    width: 90px;
+}
+
+.search_wrap {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.search_wrap input {
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#m_gnb > li > a {
+    display: block;
+    width: 150px;
+    margin-top: 30px;
+}

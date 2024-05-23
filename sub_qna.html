@@ -16,7 +16,7 @@
     <script src="/static/js/common.js"></script>
 </head>
 <body>
-
+    <!-- marquee -->
     <div class="item-wrapper marqueeBanner" style="margin-top: 0px; margin-bottom: 0px;">
         <div class="item-element marquee notUse left">
             <div class="marquee-wrapper" style="animation: 67s linear 0s infinite normal none running marquee-right-to-left;">
@@ -49,8 +49,6 @@
             </div>
         </div>    
     </div>
-
-
     <div class="item-wrapper marqueeBanner" style="margin-top: 0px; margin-bottom: 0px;">
         <div class="item-element marquee notUse left">
             <div class="marquee-wrapper" style="animation: 67s linear 0s infinite normal none running marquee-right-to-left;">
@@ -75,25 +73,21 @@
         </div>
     </div>
 
-
-
-
-    <div id="tab_gnb_wrap">
-        <ul id="tab_gnb" class="inner">
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="../sub_shop/subshop.html">SHOP</a></li>
-            <li><a href="../sub_collection/subcollection.html">COLLECTION</a></li>
-            <li><a href="../sub_review/subreview.html">REVIEW</a></li>
-            <li><a href="../sub_notice/subnotice.html">NOTICE</a></li>
-            <li><a href="subqna.html">Q&amp;A</a></li>
-        </ul>
-    </div>
+    <header id="tab_gnb_wrap">
+        <nav>
+            <ul id="tab_gnb" class="inner">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sub_shop.html">SHOP</a></li>
+                <li><a href="sub_collection.html">COLLECTION</a></li>
+                <li><a href="sub_review.html">REVIEW</a></li>
+                <li><a href="sub_notice.html">NOTICE</a></li>
+                <li><a href="sub_qna.html">Q&amp;A</a></li>
+            </ul>
+        </nav>
+    </header>
     
-
-
-    <div id="qna_wrap" class="iinner">
-
-        <div id="q_table">
+    <main id="qna_wrap" class="iinner">
+        <section id="q_table">
             <ul>
                 <li>
                     <ul class="tb_list title">
@@ -150,9 +144,9 @@
                     </ul>
                 </li>
             </ul>
-        </div>
+        </section>
 
-        <div id="m_q_table">
+        <section id="m_q_table">
             <ul>
                 <li class="m_q_list">
                     <a href="#" class="aa">
@@ -210,24 +204,44 @@
                     <div>반품 &#47; 교환</div>
                 </li>
             </ul>
-        </div>
+        </section>
 
-
-        <div class="search_wrap">
+        <section class="search_wrap">
             <div>
                 <input type="search">
                 <button><span>검색</span><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <button><span>질문 쓰기</span><i class="fa-solid fa-pen"></i></button>
-        </div>
-
-
-
+        </section>
+    </main>
+    
+    <div id="footer_wrap">
+        <footer class="inner">
+            <ul class="footer-list-top">
+                <li>상호: 미모아</li>
+                <li>대표: 홍길동</li>
+                <li>개인정보관리책임자: 홍길동</li>
+                <li>전화: 010-0000-0000</li>
+                <li>이메일: aaaa@gmail.com</li>
+            </ul>
+            <ul class="footer-list-middle">
+                <li>주소: 서울특별시 중구 을지로 000 0F 000호 미모아</li>
+                <li>사업자등록번호: 000-00-00000</li>
+                <li>통신판매: 제 0000-전북익산-0000 호</li>
+                <li>호스팅제공자: (주)식스샵</li>
+            </ul>
+            <ul class="footer-list-bottom">
+                <li>
+                    <a href="http://pgweb.uplus.co.kr/ms/escrow/s_escrowYn.do?mertid=SS_sicsw053DF" target="_blank">
+                        <img src="/static/images/ft_logo.png" alt="페이먼츠">
+                        <span>안전구매(에스크로) 서비스 가맹점</span>
+                    </a>
+                </li>
+                <li><a href="policy.html">이용약관</a></li>
+                <li><a href="privacy.html">개인정보처리방침</a></li>
+                <li><a href="#">사업자정보확인</a></li>
+            </ul>
+        </footer>
     </div>
-    
-
-
-
-    
 </body>
 </html>

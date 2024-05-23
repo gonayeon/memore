@@ -1,0 +1,39 @@
+#footer_wrap {
+    background-color: #fff;
+    width: 100%;
+}
+
+footer {
+    padding: 30px 0;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-list-top li:not(:last-child)::after, .footer-list-middle li:not(:last-child)::after {
+    content: '|';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0 7px;
+    padding-bottom: 3px;
+}
+
+.footer-list-bottom {
+    margin-top: 15px;
+}
+
+.footer-list-bottom li {
+    margin-right: 20px;
+}
+
+.footer-list-bottom li a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
