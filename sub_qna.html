@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>memore</title>
 
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/static/favicon/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <script src="../script/jquery-3.6.3.min.js"></script>
-    
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/sub_qna.css">
+    <link rel="stylesheet" href="/static/css/responsive.css">
 
-
-    <link rel="stylesheet" href="../css/subnotice.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-    <script src="../script/script.js"></script>
+    <script src="/static/js/jquery-3.6.3.min.js"></script>
+    <script src="/static/js/common.js"></script>
 </head>
 <body>
 
@@ -87,55 +84,144 @@
             <li><a href="../sub_shop/subshop.html">SHOP</a></li>
             <li><a href="../sub_collection/subcollection.html">COLLECTION</a></li>
             <li><a href="../sub_review/subreview.html">REVIEW</a></li>
-            <li><a href="subnotice.html">NOTICE</a></li>
-            <li><a href="../sub_qna/subqna.html">Q&amp;A</a></li>
+            <li><a href="../sub_notice/subnotice.html">NOTICE</a></li>
+            <li><a href="subqna.html">Q&amp;A</a></li>
         </ul>
     </div>
+    
 
-    <div id="notice_wrap" class="iinner">
 
-        <div id="table">
+    <div id="qna_wrap" class="iinner">
+
+        <div id="q_table">
             <ul>
                 <li>
                     <ul class="tb_list title">
                         <li>번호</li>
+                        <li>분류</li>
                         <li>제목</li>
                         <li>글쓴이</li>
-                        <li>조회수</li>
                         <li>등록일</li>
                     </ul>
                 </li>
                 <li>
-                    <ul class="tb_list notice">
-                        <li>공지</li>
-                        <li><a href="#">배송안내</a></li>
-                        <li>관리자</li>
-                        <li>140</li>
+                    <ul class="tb_list qna">
+                        <li>5</li>
+                        <li>반품 &#47; 교환</li>
+                        <li><a href="#" class="aa"><i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚</a></li>
+                        <li class="name">곤망망</li>
+                        <li>2023.05.02</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="tb_list qna">
+                        <li>4</li>
+                        <li>배송문의</li>
+                        <li><a href="#" class="aa"><i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚</a></li>
+                        <li class="name">김바보</li>
+                        <li>2023.05.02</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="tb_list qna">
+                        <li>3</li>
+                        <li>배송문의</li>
+                        <li><a href="#" class="aa"><i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚</a></li>
+                        <li class="name">조마루</li>
+                        <li>2023.05.02</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="tb_list qna">
+                        <li>2</li>
+                        <li>상품문의</li>
+                        <li><a href="#" class="aa"><i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚</a></li>
+                        <li class="name">강아지</li>
+                        <li>2023.05.02</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="tb_list qna">
+                        <li>1</li>
+                        <li>반품 &#47; 교환</li>
+                        <li><a href="#" class="aa"><i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚</a></li>
+                        <li class="name">김무무</li>
                         <li>2023.05.02</li>
                     </ul>
                 </li>
             </ul>
         </div>
 
-        <div id="m_table">
+        <div id="m_q_table">
             <ul>
-                <li class="notice">
-                    <h3><span>공지</span><a href="#">배송안내</a></h3>
-                    <ul class="needslash">
-                        <li>관리자</li>
-                        <li>조회수<span>141</span></li>
-                        <li>2023.05.01</li>
+                <li class="m_q_list">
+                    <a href="#" class="aa">
+                        <i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚
+                    </a>
+                    <ul>
+                        <li class="name">곤망망</li>
+                        <li>&nbsp;&#47;&nbsp;</li>
+                        <li>2023.05.02</li>
                     </ul>
+                    <div>반품 &#47; 교환</div>
+                </li>
+                <li class="m_q_list">
+                    <a href="#" class="aa">
+                        <i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚
+                    </a>
+                    <ul>
+                        <li class="name">김바보</li>
+                        <li>&nbsp;&#47;&nbsp;</li>
+                        <li>2023.05.02</li>
+                    </ul>
+                    <div>배송문의</div>
+                </li>
+                <li class="m_q_list">
+                    <a href="#" class="aa">
+                        <i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚
+                    </a>
+                    <ul>
+                        <li class="name">조마루</li>
+                        <li>&nbsp;&#47;&nbsp;</li>
+                        <li>2023.05.02</li>
+                    </ul>
+                    <div>배송문의</div>
+                </li>
+                <li class="m_q_list">
+                    <a href="#" class="aa">
+                        <i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚
+                    </a>
+                    <ul>
+                        <li class="name">강아지</li>
+                        <li>&nbsp;&#47;&nbsp;</li>
+                        <li>2023.05.02</li>
+                    </ul>
+                    <div>상품문의</div>
+                </li>
+                <li class="m_q_list">
+                    <a href="#" class="aa">
+                        <i class="fa-solid fa-lock"></i><span>답변완료</span> ✶ ‧₊˚memore Q&amp;A *·˚
+                    </a>
+                    <ul>
+                        <li class="name">김무무</li>
+                        <li>&nbsp;&#47;&nbsp;</li>
+                        <li>2023.05.02</li>
+                    </ul>
+                    <div>반품 &#47; 교환</div>
                 </li>
             </ul>
         </div>
-   
-    
+
+
         <div class="search_wrap">
-            
-            <input type="search">
-            <button><span>검색</span><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div>
+                <input type="search">
+                <button><span>검색</span><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <button><span>질문 쓰기</span><i class="fa-solid fa-pen"></i></button>
         </div>
+
+
 
     </div>
     

@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>memore</title>
 
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/static/favicon/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <script src="../script/jquery-3.6.3.min.js"></script>
-    
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/sub_notice.css">
+    <link rel="stylesheet" href="/static/css/responsive.css">
 
-
-    <link rel="stylesheet" href="../css/subcollection.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-    <script src="../script/script.js"></script>
+    <script src="/static/js/jquery-3.6.3.min.js"></script>
+    <script src="/static/js/common.js"></script>
 </head>
 <body>
 
@@ -85,55 +82,59 @@
         <ul id="tab_gnb" class="inner">
             <li><a href="../index.html">HOME</a></li>
             <li><a href="../sub_shop/subshop.html">SHOP</a></li>
-            <li><a href="subcollection.html">COLLECTION</a></li>
+            <li><a href="../sub_collection/subcollection.html">COLLECTION</a></li>
             <li><a href="../sub_review/subreview.html">REVIEW</a></li>
-            <li><a href="../sub_notice/subnotice.html">NOTICE</a></li>
+            <li><a href="subnotice.html">NOTICE</a></li>
             <li><a href="../sub_qna/subqna.html">Q&amp;A</a></li>
         </ul>
     </div>
+
+    <div id="notice_wrap" class="iinner">
+
+        <div id="table">
+            <ul>
+                <li>
+                    <ul class="tb_list title">
+                        <li>번호</li>
+                        <li>제목</li>
+                        <li>글쓴이</li>
+                        <li>조회수</li>
+                        <li>등록일</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="tb_list notice">
+                        <li>공지</li>
+                        <li><a href="#">배송안내</a></li>
+                        <li>관리자</li>
+                        <li>140</li>
+                        <li>2023.05.02</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="m_table">
+            <ul>
+                <li class="notice">
+                    <h3><span>공지</span><a href="#">배송안내</a></h3>
+                    <ul class="needslash">
+                        <li>관리자</li>
+                        <li>조회수<span>141</span></li>
+                        <li>2023.05.01</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+   
     
+        <div class="search_wrap">
+            
+            <input type="search">
+            <button><span>검색</span><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
 
-    <div id="cllc_wrap" class="iinner">
-
-        <ul>
-            <li class="video_wrap">
-                <div>
-                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/749869049?h=b8559592c7" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
-                </div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li>A New Theme is coming, 2022</li>
-                    <li></li>
-                </ul>
-            </li>
-            <li class="video_wrap">
-                <div>
-                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/720960871?h=8e4766df3e" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
-                </div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li>&#91; appetizer unboxing &#93;<br>
-                        April theme, 2022</li>
-                    <li></li>
-                </ul>
-            </li>
-            <li class="video_wrap">
-                <div>
-                    <img src="../images/collection.jpg" alt="포스터">
-                </div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li>&#91; appetizer &#93; April theme, 2022</li>
-                </ul>
-            </li>
-        </ul>
     </div>
-
-
     
 
 
