@@ -183,13 +183,17 @@ a:active{text-decoration: none; color: inherit;}
     margin-top: 30px;
 }
 
-
 #cart_wrap {
-    margin-top: 210px;
     text-align: center;
-    padding: 70px 60px;
+    padding: 280px 60px;
 }
 
 #cart_wrap p {
     padding: 100px 0;
+}
+
+#footer_wrap {
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
