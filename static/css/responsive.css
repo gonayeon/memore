@@ -74,6 +74,10 @@
       padding: 200px 4vw 50px;
     }
 
+    #log_top li, #log_top input {
+      width: 100%;
+    }
+
     #plc_wrap {
       padding-top: 150px;
     }

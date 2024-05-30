@@ -6,14 +6,16 @@
 }
 
 #log_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: left;
 }
 
 #log_top input {
     background-color: transparent;
     line-height: 23px;
-    width: 100%;
-    max-width: 350px;
+    width: 350px;
     height: 45px;
     border: 1px solid #ddd;
     outline: none;
