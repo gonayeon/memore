@@ -23,12 +23,12 @@
 }
 
 @media (max-width: 640px) {
-
     #visual {
       display: none; 
     }
     #visual2 {
       display: block;
+      height: 100vh;
     }
 
     #pc_nav {
@@ -37,6 +37,15 @@
 
     #m_wrap {
       display: block;
+    }
+
+    main {
+      min-height: 100%;
+      overflow: auto;
+    }
+
+    #footer_wrap {
+      position: static;
     }
 
     footer{
@@ -62,7 +71,7 @@
     }
 
     #log_wrap {
-      padding: 150px 0 50px;
+      padding: 200px 0 50px;
     }
 
     #plc_wrap {
@@ -122,13 +131,9 @@
       margin: 0 2vw;
     }
 
-    /* .search_wrap input {
+    .search_wrap input {
       width: calc(100% - 45px - 5px);
-    } */
-
-
-    
-
+    }
 
     .search_wrap button {
       width: 45px;
@@ -167,8 +172,8 @@
 
     .video_wrap ul li {
       height: 40px;
+      padding: 0 4vw;
     }
-   
   }
 
   @media (max-width: 408px) {

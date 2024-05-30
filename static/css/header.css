@@ -2,11 +2,13 @@
     background-color: #fff;
     position: fixed;
     top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
     z-index: 300;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 3vh;
+    padding-top: 270px;
 }
 
 #pc_nav h1 img{
@@ -117,6 +119,7 @@
     border: 1px solid #000;
     display: flex;
     align-items: center;
+    gap: 5px;
     margin-top: 15px;
     padding: 5px;
 }
